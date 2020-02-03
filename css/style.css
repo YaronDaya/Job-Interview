@@ -1,0 +1,194 @@
+/*Created by Yaron Daya
+On 2.2.2020*/
+
+/*Global*/
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*Container*/
+.container {
+  margin-left: 150px;
+  width: 1164px;
+}
+
+/*Computer Support header and text*/
+.header {
+  background-color: rgb(51, 153, 255);
+  color: rgb(255, 255, 255);
+  width: auto;
+  height: 30px;
+  overflow: hidden;
+}
+.headerText {
+  margin-top: 5px;
+  margin-left: 150px;
+}
+/*First text summry header and line*/
+.summry {
+  margin-right: 20px;
+}
+.line {
+  width: 92%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.firstText {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.secondaryText {
+  color: rgb(188, 188, 188);
+}
+
+.secondaryText a {
+  text-decoration: none;
+  color: rgb(51, 153, 255);
+}
+.thereText {
+  color: rgb(103, 103, 103);
+
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+/*left div and elements*/
+.leftMain {
+  float: left;
+  width: 772px;
+}
+.leftMain h4 {
+  color: rgb(0, 0, 0);
+}
+/* the main header of the page*/
+.mainHeader {
+  background-color: rgb(51, 153, 255);
+  color: rgb(255, 255, 255);
+}
+.mainHeader h2 {
+  margin-left: 25px;
+}
+
+/*Right div and elements
+side panel*/
+.rightMain {
+  float: left;
+  width: 256px;
+  overflow: hidden;
+  height: 705px;
+  text-align: center;
+  margin-left: 820px;
+  margin-top: 20px;
+  background-color: rgb(229, 229, 229);
+  position: absolute;
+}
+img {
+  width: 90%;
+}
+.imgs {
+  margin-left: 15px;
+}
+.rating {
+  width: 81px;
+  height: 12px;
+}
+/*Download box*/
+.box {
+  width: 700px;
+  height: auto;
+  background-color: rgb(242, 242, 242);
+  padding: 2px;
+}
+button {
+  background-color: rgb(51, 204, 51);
+  color: white;
+  width: 249px;
+  height: 68px;
+  font-size: large;
+  margin-top: 15px;
+  margin-left: 25px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.textBox {
+  margin-left: 25px;
+}
+.column {
+  float: left;
+  margin-left: 25px;
+}
+.left {
+  width: 25%;
+}
+.right {
+  width: 500px;
+}
+/*fix errors*/
+.fixErrors {
+  color: rgb(255, 255, 255);
+  background-color: rgb(51, 153, 255);
+  width: 696px;
+  height: 38px;
+}
+.fixErrors h2 {
+  margin-left: 25px;
+}
+/* list*/
+ul {
+  list-style-type: none;
+  width: 375px;
+  height: auto;
+}
+/*form*/
+
+.form {
+  widows: 629px;
+  height: 361px;
+  margin-left: 25px;
+}
+input[type="text"] {
+  width: 70%;
+  margin-left: 25px;
+  margin-top: 15px;
+  padding: 3px;
+}
+textarea {
+  width: 489px;
+  height: 177px;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding: 3px;
+}
+input[type="submit"] {
+  background-color: rgb(51, 204, 51);
+  color: rgb(255, 255, 255);
+  width: 144px;
+  height: 30px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+  font-size: large;
+  margin-top: 10px;
+  margin-left: 430px;
+}
+/*To scroll*/
+.sticky {
+  position: fixed;
+  width: 256px;
+  height: auto;
+  text-align: center;
+  margin-left: 820px;
+  background-color: rgb(229, 229, 229);
+}
+.row {
+  display: flex;
+}
+
+.messageLabel {
+  float: left;
+  margin-top: 10px;
+}
+.mandatroy {
+  color: red;
+  font-size: 9px;
+  margin-bottom: auto;
+  float: none;
+  position: initial;
+}
